@@ -1,0 +1,57 @@
+body {
+	background: #ffcd8f;
+}
+h1 {
+	text-align: center;
+	color: #000;
+}
+.all{
+	width: 1200px
+	height: 1200px;
+	padding: 40px 0;
+}
+.board{
+	width: 840px;
+	height: 840px;
+	margin: 0 auto;
+	border: 5px solid;
+	background-color: #696969;
+}
+.cell{
+	display: inline-block;
+	float: left;
+	font-style: oblique;
+}
+.num{
+	margin-top: 20px;
+}
+.number{
+	width: 20px;
+	height: 100px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.letter{
+	width: 100px;
+	height: 20px;
+	text-align: center;
+}
+.сhess{
+	width: 100px;
+	height: 100px;
+}
+.black{
+	background: #000000;
+}
+.white{
+	background: #ffffff;
+}
+.lower{
+	transform: rotate(180deg);
+}
+.size img{
+	width: 100%;
+	height: 100%;
+}
